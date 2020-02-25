@@ -1,0 +1,188 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Healthy AI - Cataract, Glaucoma, Retina disease or Normal eye</title>
+   
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style type="text/css">
+        	.central{
+        		width: 50%;
+        		margin:auto;
+        	}
+        	.fa {
+  padding: 10px;
+	font-size:40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-linkedin:hover {
+  background: white;
+  color: #007bb5;
+}
+.fa-github{
+	background: #495057;
+	color: white;
+}
+.fa-github:hover{
+	background: white;
+	color: #495057;
+}
+
+.fa-gateRes{
+	background: #0cb;
+	color: white;
+}
+.fa-gateRes:hover{
+	background: white;
+	color: #0cb;
+}
+
+.fa-envelope{
+	background: #dc4b3e;
+	color: white;
+}
+.fa-envelope:hover{
+	background: white;
+	color: #dc4b3e;
+}
+        </style>
+</head>
+
+<body >
+	<div class="jumbotron text-center">
+                <h2>Healthy AI - Cataract, Glaucoma, Retina disease or Normal eye ?</h2>
+            </div>
+    <main class="container-fluid">
+    	
+        <section>
+            
+            <div class="row">
+
+                <div class="col-md-3">
+                	<div style="padding: 10px">
+                		<h2>About Project</h2>
+                		<hr>
+                    <p>
+                    Eye diseases like glaucoma, cataracts and retina diseases, can be causing problems. AI can be used
+                    to exam the health of the eye.
+                    In our work we will try to present a project that can help people to diagnose the eye.
+                    The project is built on a set of powerful and widely used languges components:	
+                    </p>
+                    
+                    <ul>
+                        <li> Python : keras, pandas, numpy ... ;</li>
+                        <li> Flusk : to deploy our application ;</li>
+                        <li> HTML & CSS: web structure, design .</li>
+                    </ul>
+                	</div>
+
+                	<div class="text-center">
+                		<h3>Contact me</h3>
+	                <p>You can find me on:</p>
+
+	                <hr>
+	                
+	                	<a href="https://www.linkedin.com/in/ismail-ougamane/?locale=en_US" class="fa fa-linkedin"></a>
+	                
+	                
+	                
+	                   <a href="https://github.com/ismail-ougamane" class="fa fa-github"></a>
+	                    <a href="https://www.researchgate.net/profile/Ismail_Ougamane" class="fa fa-gateRes">R</a>
+	                   <a href="mailTo:Ismail.ougamane@gmail.com" class="fa fa-envelope"></a>
+
+	                	
+	                
+                	</div>
+                    
+                </div>
+
+                <div class="col-md-8">
+                	<div class="central">
+                        <h3>Upload Your image</h3>
+                		<form action="" method="post" class="form-inline" enctype="multipart/form-data">
+                        <div class="form-group">
+                            
+                            <input type="file" class="form-control-file" name="file" id="exampleFormControlFile1" required="required">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-1 ml-5 float-right">Submit</button>
+                    </form>
+                	</div>
+                    <div class="alert alert-warning mt-1 text-center" role="alert">
+  <b>Please!</b> be aware that your images are stored in our servers for <b>Reaserch purposes!</b>
+</div>
+                    <hr />
+                    <div>
+                        <h2>Results</h2>
+                        <br>
+                        <table class="table" id="results-table">
+                            <tr>
+                                <th>Image</th>
+                                <th>Prediction</th>
+                            </tr>
+                            <tr>
+                                {% block content %}{% endblock %}
+                            </tr>
+                            <tr>
+                                {% block content1 %}{% endblock %}
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <footer class="jumbotron mb-0">
+    	<div class="container">
+                <h2>About me</h2>
+                <p>My name is Ismail ougamane, after graduating with a high diploma degree in mathematics I join the
+                    high school of technology where I get my bachelors in business intelligence during this 3 years I
+                    did 3 intership.</p>
+                <p>After my bachelor degree I choose to follow my study in master degree in data science and big data
+                    during this 2 years I acquire a lot of skill like analysis big data and social network data also
+                    mastered the machine learning algorithms.</p>
+
+
+                <h3>Achievements</h3>
+                <ul>
+                    <li>Master of data science and big data from National school For Computer Science Morocco, 2020</li>
+                    <li>Bachelor of business intelligence , 2016</li>
+                    <li>I coded a website, 2020</li>
+                </ul>
+            </div>
+    	<div class="text-center" style="margin-bottom:0">
+    		
+  <p>
+        © Copyright Ismail Ougamane, 2020
+</p>
+</div>
+    </footer>
+</body>
+
+</html>
