@@ -1,7 +1,6 @@
 # EyeD
 
-The project consit of the realisation of an web application that make the classifaction the 3 Eye desease, the data set used to train the model is  
-
+The project the idea consists of the realisation of a web application that make the classification the 3 Eye disease: Retina, Cataract, Glaucoma and normal Eye.
 
 
 ## Mission: 
