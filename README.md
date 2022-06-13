@@ -1,6 +1,6 @@
 # EyeD
 
-The project the idea consists of the realisation of a web application that make the classification the 3 Eye disease: Retina, Cataract, Glaucoma and normal Eye.
+The project idea consists of the realisation of a web application that make the classification the 3 Eye disease: Retina, Cataract, Glaucoma and normal Eye.
 
 
 ## Mission: 
